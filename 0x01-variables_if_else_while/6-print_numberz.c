@@ -9,7 +9,7 @@ int main(void)
 {
 	int j = 0;
 	/* your code goes there */
-	while (j < 10)
+	while (j < 9)
 	{
 		putchar(j);
 		j++;
