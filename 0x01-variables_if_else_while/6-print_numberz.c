@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int j = 27;
+	int j = 0;
 	/* your code goes there */
-	while (j < 37)
+	while (j < 10)
 	{
 		putchar(j);
 		j++;
