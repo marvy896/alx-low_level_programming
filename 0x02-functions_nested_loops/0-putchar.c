@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	int a;
-	char b[] = "_putchar";
+	char *ab = "_putchar";
 
-	for (a = 0; a < 9; a++)
-		{
-		_putchar(b[a]);
-		}
-		_putchar('\n');
+	while (*ab)
+	{
+		_putchar(*ab);
+		ab++;
+	}
+	_putchar('\n');
 	return (0);
 }
