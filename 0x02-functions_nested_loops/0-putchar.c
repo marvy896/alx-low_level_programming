@@ -14,7 +14,7 @@ int main(void)
 	while (*b)
 	{
 		_putchar(*b);
-		*b++;
+		b++;
 	}
 	_putchar('\n');
 	return (0);
