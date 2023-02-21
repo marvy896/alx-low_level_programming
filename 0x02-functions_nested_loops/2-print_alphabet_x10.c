@@ -4,7 +4,7 @@
  *
  * Return: Always 0
  */
-int void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int q, p;
 
