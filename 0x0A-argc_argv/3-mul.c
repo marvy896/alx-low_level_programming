@@ -6,19 +6,15 @@
  * @argv: Array of arguments recieved
  * Return: 0 on success, 1 if not given two arguments
  */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-	int a, b, result;
+	(void)argc;
 
-	if (argc <= 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	/* atoi convert a string to an int */
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	result = a * b;
-	printf("%d\n", result);
+	printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
