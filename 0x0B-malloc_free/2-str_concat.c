@@ -29,5 +29,8 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (c = 0; c < a; c++)
 		sti[c] = s1[c];
+	limit = b;
+	for (b = 0; b <= limit; c++, b++)
+		sti[c] = s2[b];
 	return (sti);
 }
